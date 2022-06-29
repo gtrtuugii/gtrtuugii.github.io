@@ -1,0 +1,279 @@
+body{
+    background-color: #cfd9df;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    height: 100%;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    background: #FFF;
+
+}
+/* Background */
+.background {
+    background: linear-gradient(132deg, #cfd9df, #e2ebf0, #212335);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    padding:0;
+    margin:0px;
+  }
+  .cube {
+    position: absolute;
+    top: 80vh;
+    left: 45vw;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #D7D4E4;
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    animation: cube 12s ease-in forwards infinite;
+  }
+  .cube:nth-child(2n) {
+    border-color: #FFF ;
+  }
+  .cube:nth-child(2) {
+    animation-delay: 2s;
+    left: 25vw;
+    top: 40vh;
+  }
+  .cube:nth-child(3) {
+    animation-delay: 4s;
+    left: 75vw;
+    top: 50vh;
+  }
+  .cube:nth-child(4) {
+    animation-delay: 6s;
+    left: 90vw;
+    top: 10vh;
+  }
+  .cube:nth-child(5) {
+    animation-delay: 8s;
+    left: 10vw;
+    top: 85vh;
+  }
+  .cube:nth-child(6) {
+    animation-delay: 10s;
+    left: 50vw;
+    top: 10vh;
+  }
+
+
+  /* Header */
+  header{
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+  }
+  .header-content{
+      margin-top: 25%;
+      text-align: center;
+      color: aliceblue;
+  }
+  .header-content h1{
+      font-size: 3em;
+      letter-spacing: 1.5px;
+  }
+  .header-content p{
+      font-size: 25px;
+      line-height: 1.5;
+      margin: 20px auto;
+  }
+  .header-content button{
+      width: 140px;
+      margin: 20px 10px;
+      color: #591BC5;
+      font-size: 17px;
+      border: 1px solid #EFEEF5;
+      font-weight: 500;
+      background: #EFEEF5;
+      border-radius: 20px;
+      padding: 10px;
+      cursor: pointer;
+      transition: .3s;
+  }
+  .header-content button:hover{
+      border-radius: 0;
+  }
+
+
+  .footer-content{
+    position: relative;
+    margin-top: auto;
+    padding: auto;
+    text-align: center;
+    color: #EFEEF5;
+  }
+  .footer-content a{
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .footer-content a:hover{
+    color: #064663;
+  }
+  .footer-content copyright{
+    margin-top: 10px;
+  }
+
+
+/* Animate Background*/
+@keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @keyframes cube {
+    from {
+      transform: scale(0) rotate(0deg) translate(-50%, -50%);
+      opacity: 1;
+    }
+    to {
+      transform: scale(20) rotate(960deg) translate(-50%, -50%);
+      opacity: 0;
+    }
+}
+
+  /* About me page */
+.author{
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 400px; /* remove later */
+    background: #ccc;
+    padding: 20px;
+}
+.author ul{
+    list-style-type: none;
+    padding: 0;
+    
+}
+.bio .container-fluid{
+    padding-left: 20px;
+}
+
+
+#CV{
+    background-color: #FFF;
+    color: #010101;
+}
+
+#courses li{
+    background-color: #FFF;
+    color: #010101;
+    border-color: #010101;
+}
+
+#main-content{
+    background-color: #FFF;
+    color: #010101;
+}
+#navside li{
+    background-color: #FFF;
+    color: #010101;
+}
+
+.columns-download button{
+    width: 140px;
+    margin: 20px 10px;
+    color: #591BC5;
+    font-size: 17px;
+    border: 1px solid #EFEEF5;
+    font-weight: 500;
+    background: #EFEEF5;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+.columns-download button:hover{
+    border-radius: 0;
+}
+
+/* Dark Mode */
+.dark-body{
+    background-color: #000000;
+    color: white;
+}
+.darkmode {
+    background: linear-gradient(132deg, #010101, #000000, #434343);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    padding:0;
+    margin:0px;
+}
+.dark-header-content{
+    margin-top: 25%;
+    text-align: center;
+    color: #EFEEF5;
+}
+#barnav button{
+    border: 1px solid #434343;
+    background: whitesmoke;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s;
+  }
+
+#barnav button:hover{
+    border-radius: 0;
+    color: #064663;
+}
+
+/* Dark Mode About me Page */
+
+.darkCV{
+    background-color: red;
+    color:blue;
+}
+
+.dark-courses li{
+    background-color: #000000;
+    color: #ccc;
+    border-color: aliceblue;
+}
+
+.dark-main-content{
+    background-color: #000000;
+    color: aliceblue;
+}
+.dark-navside li{
+    background-color: #000000;
+    color: #FFF;
+}
+
+/* Clock */
+#clock{
+    position: relative;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%) translateY(-50%);
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Righteous', system-ui, sans-serif;
+    letter-spacing: 7px;
+}
+
+html{
+    scroll-behavior: smooth;
+}

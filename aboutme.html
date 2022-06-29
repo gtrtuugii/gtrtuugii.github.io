@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me.</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="css/styles1.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+
+    <!-- Navigation Bar-->
+    <nav id="barnav" class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/Users/School/Documents/Web Dev/CSS - My Site/mainpage.html">
+            <img src="images/home.png"width="25" height="25" class="d-inline-block align-top" alt="home button">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" role="button">
+                    <button id="darkbutton" onclick="DarksMode()">
+                        <img src="images/eclipse-alt.png"width="25" height="25" class="d-inline-block align-top" alt="dark-mode-button">
+                    </button>
+                </a>
+            </li>
+          </ul>
+
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+
+    <div class="bio">
+        <div id="main-content" class="container-fluid">
+            <div class="row content">
+            <div id="navside" class="col-sm-3 sidenav">
+                <img src="images/IMG_3024.jpg"width="150" height="150" class="d-inline-block rounded-circle align-top" alt="author-photo-img">
+                <h4>Tuguldur Gantumur</h4>
+                <ul class="list-group list-group-pills list-group-stacked">
+                    <li class="list-group-item">
+                        <img src="images/CV/phone-call-dark.png" height="25" class="d-inline-block align-top" alt="phone-img">
+                        <span>0415445737</span>
+                    </li>
+                    <li class="list-group-item">
+                        <img src="images/CV/envelope-dark.png" height="25" class="d-inline-block align-top" alt="email-img">
+                        <span>gtrtuugii@gmail.com</span>
+                    </li>
+                    <li class="list-group-item">
+                        <img src="images/CV/marker-dark.png" height="25" class="d-inline-block align-top" alt="pin-img">
+                        <span> Perth, Australia</span>
+                    </li>
+                    <li class="list-group-item">
+                        <img src="images/CV/calendar-dark.png" height="25" class="d-inline-block align-top" alt="phone-img">
+                        <span> 01/04/1999 </span>
+                    </li>
+                    <li class="list-group-item">
+                        <img src="images/CV/graduation-cap-dark.png" height="25" class="d-inline-block align-top" alt="phone-img">
+                        <span> BSc Computer Science</span>
+                    </li>
+                </ul><br>
+                <h4>Skills</h4>
+                <ul class="list-group list-group-pills list-group-stacked">
+                    <li class="list-group-item">Programming Languages</li>
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Programming Languages
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                  <a class="dropdown-item" href="#">C</a>
+                                  <a class="dropdown-item" href="#">C++</a>
+                                  <a class="dropdown-item" href="#">Java</a>
+                                  <a class="dropdown-item" href="#">JavaScript</a>
+                                  <a class="dropdown-item" href="#">Python</a>
+                                  <a class="dropdown-item" href="#">HTML & CSSS</a>
+                                </div>
+                              </li>
+ 
+                        </ul>
+                       
+                    <li class="list-group-item">Web development</li>
+                    <li class="list-group-item">Computer networking</li>
+                    <li class="list-group-item">Database Management</li>
+                    <li class="list-group-item">Microsoft Office</li>
+                </ul><br>
+                <div class="columns-download">
+                    <button>
+                        <a class="button" href="images/TGantumurCV.pdf">Download CV</a>   
+                    </button>
+                 </div>
+
+
+        </div>
+        <div id="CV" class="col-sm-9">
+            <h4><small>Curriculum Vitae</small></h4>
+            <hr>
+            <h2>About Me</h2>
+            <h5><span class="glyphicon glyphicon-time"></span> Updated as of June, 2022.</h5>
+            <br>
+            <p> 
+                Hardworking final year university student seeking employment.
+                Bringing forth a motivated attitude and a variety of powerful skills.
+                Proficient in various platforms, languages, and embedded systems.
+                Committed to utilizing my skills to further the mission of a company.
+                Able to effectively self-manage during independent projects, as well as
+                collaborate as part of a productive team.
+            </p>
+            <br><br>
+
+            <h2 class="border-bottom">Education</h2>
+
+            <h3>National University of Mongolia</h3>
+            <h4>Diploma of Economics</h4>
+            <p class="border-bottom">2016-2017</p>
+            
+            <h3>University of Bristol</h3>
+            <h4>Foundation Programme of Economics</h4>
+            <p class="border-bottom">2017-2018</p>
+            <h3>University of Western Australia</h3>
+            <a href="https://year2019.handbooks.uwa.edu.au/majordetails?code=MJD-CMPSC#dsmlevel3">
+                <h4>Bachelor of Science, Computer Science</h4>
+            </a>
+            <h5> Minor in Economics</h5>
+            <p class="border-bottom">2019-2022</p>
+            <br><br>
+
+            <h2>Work Experience</h2>
+            <h3>Intern, Back-End Engineer, Alvo LLC</h3>
+            <p>2021.11.05-2022.2.15</p>
+            <p>Served as a dedicated and supportive Intern in a fast-paced
+                environment. Was able to be mentored in the back-end side of the
+                company, where I was able to learn more about:
+                1. Spring boot:
+                • Micro service architecture
+                REST API
+                • MVC Architecture
+                • Maven Project
+                • Project lombok
+                • Exception handling
+                • Spring Testing
+                2. Database
+                • Worked with database management systems such as MySQL,
+                    MongoDB
+            </p>
+            <br><br>
+
+            <h2>Relevant Coursework</h2>
+            <ul id="courses" class="list-group list-group-pills list-group-stacked">
+                <li class="list-group-item">
+                    <a href="https://year2019.handbooks.uwa.edu.au/unitdetails?code=CITS1001">CITS1001 Software Engineering with Java</a>
+                </li>  
+                <li class="list-group-item">
+                    <a href="https://year2019.handbooks.uwa.edu.au/unitdetails?code=CITS1402">CITS1402 Relational Database Management Systems</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://year2019.handbooks.uwa.edu.au/unitdetails?code=CITS2002">CITS2002 Systems Programming</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://year2019.handbooks.uwa.edu.au/unitdetails?code=CITS2200">CITS2200 Data Structures and Algorithms</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://year2019.handbooks.uwa.edu.au/unitdetails?code=CITS2211">CITS2211 Discrete Structures</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://year2019.handbooks.uwa.edu.au/unitdetails?code=CITS2401">CITS2401 Computer Analysis and Visualisation</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://year2019.handbooks.uwa.edu.au/unitdetails?code=CITS3002">CITS3002 Computer Networks</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://year2019.handbooks.uwa.edu.au/unitdetails?code=CITS3003">CITS3003 Graphics and Animation</a>
+                </li>
+            </ul><br>
+
+            <h3>Lorem ipsum</h3>
+            <p>2012-2020</p>
+            <br><br>
+
+            <h2>Extra-Curricular Activities</h2>
+            <h3>UniMentor</h3>
+            <p>A UniMentor is a later year student from the same faculty who wants
+                to help a commencing student navigate the everyday challenges
+                of University Life by drawing on his or her greater knowledge and
+                experience and assist their transition
+            </p>
+            <br><br>
+
+
+        </div>
+    </div>
+
+    
+<script>
+    function DarksMode() 
+    {
+        //alert("dark mode enabled");
+        //document.body.classList.toggle("dark-body");
+        document.getElementById("CV").classList.toggle("darkCV");
+        document.getElementById("courses li").classList.toggle("dark-courses li");
+        //document.getElementById("back").classList.toggle("darkmode");
+            
+            
+            
+    }
+</script>
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+</body>
+</html>
