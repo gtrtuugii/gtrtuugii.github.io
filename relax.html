@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lo-Fi</title>
+  <!-- bootstrap 5 css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+  <!-- BOX ICONS CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+
+ 
+  <!-- custom css -->
+  <link rel="stylesheet" href="relax.css" />
+</head>
+
+<body>
+  <!-- Side-Nav -->
+    <div class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column" id="sidebar">
+        <ul class="nav flex-column text-white w-100">
+        <a href="#" class="nav-link h3 text-white my-2">
+            Welcome </br>to the Room.
+        </a>
+            <li href="#" class="nav-link">
+                <i class="bx bxs-dashboard"></i>
+                <span class="mx-2">Home</span>
+            </li>
+            <li href="#" class="nav-link">
+                <i class="bx bx-user-check"></i>
+                <span class="mx-2">Profile</span>
+            </li>
+            <li href="#" class="nav-link">
+                <i class="bx bx-conversation"></i>
+                <span class="mx-2">Contact</span>
+            </li>
+        </ul>
+
+        <span href="#" class="nav-link h4 w-100 mb-5">
+            <a href=""><i class="bx bxl-instagram-alt text-white"></i></a>
+            <a href=""><i class="bx bxl-twitter px-2 text-white"></i></a>
+            <a href=""><i class="bx bxl-facebook text-white"></i></a>
+        </span>
+    </div>
+
+    <!-- Main Wrapper -->
+    <div class="p-1 my-container active-cont">
+        <!-- Top Nav -->
+        <nav class="navbar top-navbar navbar-light bg-dark px-5">
+            <a class="btn border-0" id="menu-btn"><i class="bx bx-menu"></i></a>
+        </nav>
+        <!--End Top Nav -->
+
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            </div>
+        
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="gifs/anime/oceanwaves.gif" alt="Los Angeles" class="d-block w-100" id="carousal-img">
+                </div>
+                <div class="carousel-item">
+                    <img src="gifs/anime/howls.gif" alt="Chicago" class="d-block w-100" id="carousal-img">
+                </div>
+                <div class="carousel-item">
+                    <img src="gifs/anime/train.gif" alt="New York" class="d-block w-100" id="carousal-img">
+                </div>
+                <div class="carousel-item">
+                    <img src="gifs/anime/windrises.gif" alt="New York" class="d-block w-100" id="carousal-img">
+                </div>
+            </div>
+        
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+        <div class="music-player">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/51q7F6whVJCBgsgJNLVSXp?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+        </div>
+        
+
+    </div>
+
+    <script src="relax.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+
+
+</body>
+
+</html>
