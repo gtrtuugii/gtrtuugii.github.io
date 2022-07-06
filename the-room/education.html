@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lo-Fi</title>
+        <!-- bootstrap 5 css -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+        <!-- BOX ICONS CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+      
+       
+        <!-- custom css -->
+        <link rel="stylesheet" href="css/relax.css" />
+      </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <!-- Side-Nav -->
+        <div class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column" id="sidebar">
+            <ul class="nav flex-column text-white w-100">
+            <a href="#" class="nav-link h3 text-white my-2">
+                Welcome </br>to the Room.
+            </a>
+                <a href="file:///Users/School/Desktop/Sites/gtrtuugii.github.io/the-room/index.html">
+                    <li href="#" class="nav-link">
+                        <i class="bx bxs-dashboard"></i>
+                        <span class="mx-2">Home</span>
+                    </li>
+                </a>
+                <a href="">
+                    <li href="#" class="nav-link">
+                        <i class="bx bx-user-check"></i>
+                        <span class="mx-2">Profile</span>
+                    </li>
+                </a>
+                <a href="file:///Users/School/Desktop/Sites/gtrtuugii.github.io/the-room/education.html">
+                    <li href="#" class="nav-link">
+                        <i class="bx bx-book-content"></i>
+                        <span class="mx-2">Education</span>
+                    </li>
+                </a>
+                <a href="">
+                    <li href="#" class="nav-link">
+                        <i class="bx bx-conversation"></i>
+                        <span class="mx-2">Contact</span>
+                    </li>
+                </a>
+
+            </ul>
+
+            <span href="#" class="nav-link h4 w-100 mb-5">
+                <a href=""><i class="bx bxl-instagram-alt text-white"></i></a>
+                <a href=""><i class="bx bxl-twitter px-2 text-white"></i></a>
+                <a href=""><i class="bx bxl-facebook text-white"></i></a>
+            </span>
+        </div>
+
+        <!-- Main Wrapper -->
+        <div class="p-1 my-container active-cont">
+            <!-- Top Nav -->
+            <nav class="navbar top-navbar navbar-light bg-dark px-5">
+                <a class="btn border-0" id="menu-btn"><i class="bx bx-menu"></i></a>
+            </nav>
+            <!-- End Top Nav -->
+
+            <!-- Word Counter -->
+            <div class="container">
+                <h1>Word Counter</h1>
+                <textarea placeholder="Enter your text here..."></textarea>
+                <div class="output row">
+                  <div>Characters: <span id="characterCount">0</span></div>
+                  <div>Words: <span id="wordCount">0</span></div>
+                </div>
+                <div class="output row">
+                  <div>Sentences: <span id="sentenceCount">0</span></div>
+                  <div>Paragraphs: <span id="paragraphCount">0</span></div>
+                </div>
+                <div class="output row">
+                  <div>Reading Time: <span id="readingTime">0</span></div>
+                  <div id="readability">Show readability score.</div>
+                </div>
+                <div class="keywords">
+                  Top keywords:
+                  <ul id="topKeywords">
+                  </ul>
+                </div>
+            </div>
+
+            <!-- To-do List App -->
+            <div class="to-do">
+                <h1>To-Do List</h1>
+                <div class="container">
+                    <input type="text" id="newEntry" placeholder="Add tasks here..." autofocus>
+                </div>	
+                
+                <div class="container" id="pendingItems">
+                    <h2>Pending Items</h2>
+                    <ul id="todo">
+                        
+                    </ul>
+                </div>
+
+                <div class="container" id="completedItems">
+                    <h2>Completed Items</h2>
+                    <ul id="completed">
+                        
+                    </ul>
+                </div>
+            </div>
+
+
+              
+        </div>
+
+
+
+
+        <script src="js/app.js"></script>
+        <script src="js/relax.js"></script>
+        <script src="js/word-counter.js"></script>
+        <!-- bootstrap js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+
+
+        
+        <script src="" async defer></script>
+    </body>
+</html>
