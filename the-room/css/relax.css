@@ -13,7 +13,7 @@ html {
   
   body {
     min-height: 100vh;
-    background-color: #434343;
+    background-color: #212529;
   }
   
   .side-navbar {
@@ -238,11 +238,12 @@ textarea:focus {
 }
 
 .to-do h1 {
+  color: #000;
 	text-align: center;
-	font-weight: 400;
-	font-size: 3rem;
 	margin: 5% 0;
-	color: #795548;
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 1% 0 3%;
 }
 
 .to-do h2 {
