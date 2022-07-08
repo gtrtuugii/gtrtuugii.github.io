@@ -1,6 +1,4 @@
 
-
-
  const quotes = ["Every strike brings me closer to the next home run. – Babe Ruth","I don’t walk away from things I think are unfinished. – Arnold Schwarzenegger","Whether you think you can or you think you can’t, you’re right. –Henry Ford",
 "I’ve missed more than 9000 shots in my career. I’ve lost almost 300 games. 26 times I’ve been trusted to take the game winning shot and missed. I’ve failed over and over and over again in my life. And that is why I succeed. –Michael Jordan","I didn’t fail the test. I just found 100 ways to do it wrong. –Benjamin Franklin","A person who never made a mistake never tried anything new. – Albert Einstein","It is never too late to be what you might have been. –George Eliot",
 "Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do, so throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails.  Explore, Dream, Discover. –Mark Twain",
@@ -87,7 +85,6 @@ function WelcomeMessage(times)
 function MotivationalQuotes()
 {
     const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-    //console.log(randomElement);
     document.getElementById("quote").innerHTML = randomQuote;
 }
   MotivationalQuotes();
