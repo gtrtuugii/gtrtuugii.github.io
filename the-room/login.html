@@ -5,9 +5,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <!-- bootstrap 5 css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <!-- BOX ICONS CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+
+ 
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/relax.css" />
 </head>
 <body>
-    <h1> Login </h1>
+    
+    <!-- Side-Nav -->
+    <div class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column" id="sidebar">
+        <ul class="nav flex-column text-white w-100">
+        <a href="#" class="nav-link h3 text-white my-2">
+            Welcome </br>to the Room.
+        </a>
+            <a href="/index.html">
+                <li href="#" class="nav-link">
+                    <i class="bx bxs-dashboard"></i>
+                    <span class="mx-2">Home</span>
+                </li>
+            </a>
+            <a href="">
+                <li href="#" class="nav-link">
+                    <i class="bx bx-user-check"></i>
+                    <span class="mx-2">Profile</span>
+                </li>
+            </a>
+            <a href="education.html">
+                <li href="#" class="nav-link">
+                    <i class='bx bx-joystick-button'></i>
+                    <span class="mx-2">Utilities</span>
+                </li>
+            </a>
+            <a href="">
+                <li href="#" class="nav-link">
+                    <i class='bx bx-dollar-circle'></i>
+                    <span class="mx-2">Stocks</span>
+                </li>
+            </a>
+            <a href="mailto:gtrtuugii@gmail.com">
+                <li href="#" class="nav-link">
+                    <i class="bx bx-conversation"></i>
+                    
+                    <span class="mx-2">Contact</span>
+                </li>
+            </a>
+        </ul>
+
+        <span href="#" class="nav-link h4 w-100 mb-5">
+            <a href=""><i class="bx bxl-instagram-alt text-white"></i></a>
+            <a href=""><i class="bx bxl-twitter px-2 text-white"></i></a>
+            <a href=""><i class="bx bxl-facebook text-white"></i></a>
+        </span>
+    </div>
+
+    <!-- Main Wrapper -->
+    <div class="p-1 my-container active-cont">
+        <!-- Top Nav -->
+        <nav class="navbar top-navbar navbar-light bg-dark px-5">
+            <a class="btn border-0" id="menu-btn"><i class="bx bx-menu"></i></a>
+        </nav>
+        <!-- End Top Nav -->
+
+        <!-- Login Card -->
+        <div class="card">
+            <h1 id="login-title">Welcome</h1>
+            <form>
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                    <input type = "email" id="email" class="form-control"/>
+                </div>
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                    <input type="password" id="form2Example2" class="form-control" />
+                    <label class="form-label" for="form2Example2"></label>
+                </div>
+
+                <!-- 2 column grid layout for inline styling -->
+                <div class="row mb-4">
+                    <div class="col d-flex justify-content-center">
+                    <!-- Checkbox -->
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                        <label class="form-check-label" for="form2Example31"> Remember me </label>
+                    </div>
+                    </div>
+
+                    <div class="col">
+                    <!-- Simple link -->
+                    <a href="#!">Forgot password?</a>
+                    </div>
+                </div>
+
+                <!-- Submit button -->
+                <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+            </form>
+        </div>
+    </div>
+
+    
+    <script src="js/relax.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+
     
 </body>
 </html>
